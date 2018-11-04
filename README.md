@@ -49,19 +49,17 @@ An webpage that helps user seek open jobs listed from two providers (GitHub and 
 ![enter image description here](https://github.com/bkanawati/job-finder/blob/master/Screen%20Shot%202018-11-04%20at%2011.04.57%20AM.png?raw=true)
 
 ## This is the results displayed:
-	- Logo
-	- Position title
-	- Company name
-	- Location
-	- Date format DD/MM/YYYY
+ - Logo 	
+ - Position title 	
+ - Company name 	
+ - Location 	
+ - Date format DD/MM/YYYY
 
 ![enter image description here](https://github.com/bkanawati/job-finder/blob/master/Screen%20Shot%202018-11-04%20at%209.00.34%20AM.png?raw=true)
 ![enter image description here](https://github.com/bkanawati/job-finder/blob/master/Screen%20Shot%202018-11-04%20at%209.03.29%20AM.png?raw=true)
 
-
--If a logo is NOT available
--The logo of the provider will be displayed instead. 
--(Github logo will be an example here)
+ - If a logo is NOT available.
+ - The logo of the provider will be displayed instead. (Github logo will be an example here)
 
 ![enter image description here](https://github.com/bkanawati/job-finder/blob/master/Screen%20Shot%202018-11-04%20at%209.00.52%20AM.png?raw=true)
 
@@ -81,7 +79,7 @@ Use a chrome extension to enable CORS:
 ## Installation 
 Steps to run my code.
 ```
-GIT CLONE *Repository URL*
+git clone *Repository URL*
 ```
 ```
 npm i
