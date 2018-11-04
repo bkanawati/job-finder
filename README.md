@@ -39,11 +39,33 @@ An webpage that helps user seek open jobs listed from two providers (GitHub and 
 	- The results div is emptied.
 	- A `createJobListForGovJobs()` function is created, it takes in an object. Created specifically for the Search.gov API.
 ![enter image description here](https://github.com/bkanawati/job-finder/blob/master/Screen%20Shot%202018-11-04%20at%2011.04.03%20AM.png?raw=true)
-	- A `reateJobListForGitHub()` is created, it takes in an object. Created specifically for the GitHub API.
+	- A `createJobListForGitHub()` is created, it takes in an object. Created specifically for the GitHub API.
 ![enter image description here](https://github.com/bkanawati/job-finder/blob/master/Screen%20Shot%202018-11-04%20at%2011.04.15%20AM.png?raw=true)
 	 - The text inputed into the "options" tab, it's value will be stored in a variable called`skillsValue`.
-	 - The text inputed into the "location" tab, it's value will be stored in a variable called `locationValue`.![enter image description here](https://github.com/bkanawati/job-finder/blob/master/Screen%20Shot%202018-11-04%20at%2011.04.38%20AM.png?raw=true)![enter image description here](https://github.com/bkanawati/job-finder/blob/master/Screen%20Shot%202018-11-04%20at%2011.05.03%20AM.png?raw=true)
+	 - The text inputed into the "location" tab, it's value will be stored in a variable called `locationValue`.
+	 - Using the `skillsValue` and `locationValue`. A query for the GitHub API is created and stored in a variable `requestDataFromGitHubJobs`. A query for the Search.gov API is created and stored in a variable `requestDataFromSearchGovJobs`.![enter image description here](https://github.com/bkanawati/job-finder/blob/master/Screen%20Shot%202018-11-04%20at%2011.04.38%20AM.png?raw=true)
+	 - If the chosen "select" element is GitHub Jobs, an AJAX Get request is made to the GitHub Jobs API. If successful, the `createJobListForGitHub()` function is executed, and the data is appended to the result div.![enter image description here](https://github.com/bkanawati/job-finder/blob/master/Screen%20Shot%202018-11-04%20at%2011.05.03%20AM.png?raw=true)
+	- If the chosen "select" element is Search.gov Jobs, an AJAX Get request is made to the Search.gov Jobs API. If successful, the `createJobListForGovJobs()` function is executed, and the data is appended to the result div.
+![enter image description here](https://github.com/bkanawati/job-finder/blob/master/Screen%20Shot%202018-11-04%20at%2011.04.57%20AM.png?raw=true)
 
-Access to XMLHttpRequest at 'https://jobs.github.com/positions.json?search=&location=DUBAI' from origin'http://127.0.0.1:5500' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
-As of now I use a chrome extension to enable CORS.
-https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi
+## This is the results displayed:
+	-Logo
+	-Position title
+	-Company name
+	-Location
+	-Date format DD/MM/YYYY
+
+![enter image description here](https://github.com/bkanawati/job-finder/blob/master/Screen%20Shot%202018-11-04%20at%209.00.34%20AM.png?raw=true)
+![enter image description here](https://github.com/bkanawati/job-finder/blob/master/Screen%20Shot%202018-11-04%20at%209.03.29%20AM.png?raw=true)
+-If a logo is NOT available, the logo of the provider will be displayed instead. (Github logo will be an example here)
+
+![enter image description here](https://github.com/bkanawati/job-finder/blob/master/Screen%20Shot%202018-11-04%20at%209.00.52%20AM.png?raw=true)
+
+
+WARNING: 
+If such error is displayed:
+```
+Access to XMLHttpRequest at '[https://jobs.github.com/positions.json?search=&location=DUBAI](https://jobs.github.com/positions.json?search=&location=DUBAI)' from origin'[http://127.0.0.1:5500](http://127.0.0.1:5500/)' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+```
+Use a chrome extension to enable CORS:
+[Click here to enable CORS](https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi)
