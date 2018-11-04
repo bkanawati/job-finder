@@ -49,21 +49,27 @@ An webpage that helps user seek open jobs listed from two providers (GitHub and 
 ![enter image description here](https://github.com/bkanawati/job-finder/blob/master/Screen%20Shot%202018-11-04%20at%2011.04.57%20AM.png?raw=true)
 
 ## This is the results displayed:
-	-Logo
-	-Position title
-	-Company name
-	-Location
-	-Date format DD/MM/YYYY
+	- Logo
+	- Position title
+	- Company name
+	- Location
+	- Date format DD/MM/YYYY
 
 ![enter image description here](https://github.com/bkanawati/job-finder/blob/master/Screen%20Shot%202018-11-04%20at%209.00.34%20AM.png?raw=true)
 ![enter image description here](https://github.com/bkanawati/job-finder/blob/master/Screen%20Shot%202018-11-04%20at%209.03.29%20AM.png?raw=true)
+
+
 -If a logo is NOT available, the logo of the provider will be displayed instead. (Github logo will be an example here)
 
 ![enter image description here](https://github.com/bkanawati/job-finder/blob/master/Screen%20Shot%202018-11-04%20at%209.00.52%20AM.png?raw=true)
 
+-Extra Feature:
+	If a location or a position is not listed. A message "No Jobs found.." will be displayed.
+![enter image description here](https://github.com/bkanawati/job-finder/blob/master/Screen%20Shot%202018-11-04%20at%2011.47.57%20AM.png?raw=true)
+	
 
 WARNING: 
-If such error is displayed:
+If such an error is displayed:
 ```
 Access to XMLHttpRequest at '[https://jobs.github.com/positions.json?search=&location=DUBAI](https://jobs.github.com/positions.json?search=&location=DUBAI)' from origin'[http://127.0.0.1:5500](http://127.0.0.1:5500/)' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
 ```
