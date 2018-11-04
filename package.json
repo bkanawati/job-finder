@@ -1,0 +1,22 @@
+{
+  "name": "job-finder",
+  "version": "1.0.0",
+  "description": "seek available jobs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bkanawati/Job-finder-v1-.git"
+  },
+  "author": "Batul Kanawati",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bkanawati/Job-finder-v1-/issues"
+  },
+  "homepage": "https://github.com/bkanawati/Job-finder-v1-#readme",
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
+}
