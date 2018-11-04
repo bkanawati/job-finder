@@ -63,7 +63,7 @@ A webpage that helps user seek open jobs listed from two providers (GitHub and S
 
 ![enter image description here](https://github.com/bkanawati/job-finder/blob/master/Screen%20Shot%202018-11-04%20at%209.00.52%20AM.png?raw=true)
  -  Features: 
- If clicked on the posting, it will directly to the job posting URL.
+ If clicked on the posting, it will direct you to the job posting URL.
  - Extra Feature:	
  If a location or a position is not listed. A message "No Jobs found.." will be displayed.
 
