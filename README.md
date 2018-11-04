@@ -1,6 +1,6 @@
 # Job Finder Webpage
 
-An webpage that helps user seek open jobs listed from two providers (GitHub and Search.gov)
+A webpage that helps user seek open jobs listed from two providers (GitHub and Search.gov)
 
 ## Steps to creating my project
 
