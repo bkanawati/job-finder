@@ -59,14 +59,16 @@ An webpage that helps user seek open jobs listed from two providers (GitHub and 
 ![enter image description here](https://github.com/bkanawati/job-finder/blob/master/Screen%20Shot%202018-11-04%20at%209.03.29%20AM.png?raw=true)
 
 
--If a logo is NOT available, the logo of the provider will be displayed instead. (Github logo will be an example here)
+-If a logo is NOT available
+-The logo of the provider will be displayed instead. 
+-(Github logo will be an example here)
 
 ![enter image description here](https://github.com/bkanawati/job-finder/blob/master/Screen%20Shot%202018-11-04%20at%209.00.52%20AM.png?raw=true)
 
 -Extra Feature:
-	If a location or a position is not listed. A message "No Jobs found.." will be displayed.
+If a location or a position is not listed. A message "No Jobs found.." will be displayed.
+
 ![enter image description here](https://github.com/bkanawati/job-finder/blob/master/Screen%20Shot%202018-11-04%20at%2011.47.57%20AM.png?raw=true)
-	
 
 WARNING: 
 If such an error is displayed:
@@ -75,3 +77,12 @@ Access to XMLHttpRequest at '[https://jobs.github.com/positions.json?search=&loc
 ```
 Use a chrome extension to enable CORS:
 [Click here to enable CORS](https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi)
+
+## Installation 
+Steps to run my code.
+```
+GIT CLONE *Repository URL*
+```
+```
+npm i
+```
