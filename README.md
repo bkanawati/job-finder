@@ -62,9 +62,10 @@ An webpage that helps user seek open jobs listed from two providers (GitHub and 
  - The logo of the provider will be displayed instead. (Github logo will be an example here)
 
 ![enter image description here](https://github.com/bkanawati/job-finder/blob/master/Screen%20Shot%202018-11-04%20at%209.00.52%20AM.png?raw=true)
-
--Extra Feature:
-If a location or a position is not listed. A message "No Jobs found.." will be displayed.
+ -  Features: 
+ If clicked on the posting, it will directly to the job posting URL.
+ - Extra Feature:	
+ If a location or a position is not listed. A message "No Jobs found.." will be displayed.
 
 ![enter image description here](https://github.com/bkanawati/job-finder/blob/master/Screen%20Shot%202018-11-04%20at%2011.47.57%20AM.png?raw=true)
 
